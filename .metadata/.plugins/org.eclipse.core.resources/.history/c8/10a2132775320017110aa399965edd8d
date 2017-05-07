@@ -1,0 +1,16 @@
+package com.algorithms.controller;
+
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/index")
+public class Entry {
+
+	@RequestMapping(method = RequestMethod.GET, value = "/data", produces = MediaType.APPLICATION_JSON_VALUE)
+	public String registerAgent() {
+		return "hello world";
+	}
+}

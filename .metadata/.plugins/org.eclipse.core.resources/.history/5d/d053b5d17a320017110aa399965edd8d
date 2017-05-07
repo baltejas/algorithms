@@ -1,0 +1,15 @@
+package com.algorithms.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class Entry {
+
+	@RequestMapping(method = RequestMethod.GET, value = "/list")
+	public ModelAndView registerAgent() {
+		return new ModelAndView("index");
+	}
+}

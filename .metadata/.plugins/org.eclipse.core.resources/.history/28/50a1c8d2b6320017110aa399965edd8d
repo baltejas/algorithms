@@ -1,0 +1,41 @@
+package com.algorithms.logic;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Algorithms {
+
+	public String question_1Dot2dash2() {
+		int i = 2; // log(1) = 0 hence we start from 2
+		while(i > 0) {
+			// Steps to sort n inputs: insertion sort - 8n*n
+			// Steps to sort n inputs: merge sort - 64nlgn (log to base 2)
+			if((8 * i * i) > (64 * i * (Math.log(i)/Math.log(2)))) {
+				return "Insertion sort beats merge sort at: " + i;
+			} else {
+				i++;
+			}
+		}
+		return null;
+	}
+	
+	public static void main(String[] args) {
+		int numbers[] = {31,41,59,26,41,58};
+		int sortedNumbers[] = {};
+		for(int j = 1; j < numbers.length; j++) { // Start with second element in array
+			int key = numbers[j];
+			int i = j - 1;
+				while(i >= 0 && numbers[i] > key) {
+					numbers[i+1] = numbers[i];
+					i = i - 1;
+				}
+			numbers[i+1] = key;
+			sortedNumbers[i] = key;
+			
+		}
+		for(int k = 0; k < sortedNumbers.length; k++) {
+			System.out.println(sortedNumbers[k]);
+		}
+		
+	}
+}

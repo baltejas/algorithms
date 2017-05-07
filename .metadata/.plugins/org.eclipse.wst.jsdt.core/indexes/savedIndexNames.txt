@@ -1,0 +1,11 @@
+INDEX VERSION 1.3+/Users/tbal/code/algorithms/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+877618020.index
+1826802968.index
+2366129885.index
+2298297165.index
+560099107.index
+2546492273.index
+3958286055.index
+3315844799.index
+2686424944.index
+3669921124.index
