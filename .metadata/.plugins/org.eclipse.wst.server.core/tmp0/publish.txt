@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Sat May 06 21:39:25 EDT 2017
-org.eclipse.jst.jee.server\:/binary\:/Users/tbal/.m2/repository/org/springframework/spring-web/4.1.0.RELEASE/spring-web-4.1.0.RELEASE.jar=WEB-INF/lib/spring-web-4.1.0.RELEASE.jar

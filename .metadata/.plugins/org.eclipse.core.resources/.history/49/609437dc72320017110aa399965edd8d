@@ -1,7 +1,0 @@
-package com.algorithms.configuration;
-
-@EnableWebMvc
-@Configuration
-public class WebMvcConfig extends WebMvcConfigurerAdapter {
-	
-}

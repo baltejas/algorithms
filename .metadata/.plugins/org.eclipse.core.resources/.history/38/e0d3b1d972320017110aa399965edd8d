@@ -1,5 +1,0 @@
-package com.algorithms.configuration;
-
-public class WebMvcConfig {
-
-}
